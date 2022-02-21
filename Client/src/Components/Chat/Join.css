@@ -1,0 +1,73 @@
+.Join{
+    height:100vh;
+    width:100vw;
+    background-color: black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-family:sans-serif;
+}
+.join_container{
+    color:white;
+    height:50%;
+    width:60%;
+
+   box-shadow:5px 5px 5px 10px white ;
+}
+.header{
+ 
+    display:flex;
+  justify-content:space-between;
+}
+.header >img{
+    height:40px;
+    width:40px;
+    border:none;
+    outline:none;
+    border-radius:50%;
+    margin:5px;
+
+}
+.header >h3{
+ margin-right:auto;
+ margin-left:auto;
+ margin-top:5px;
+}
+.join_login{
+display:flex;
+flex-direction:column;
+width:max-content;
+justify-content: center;
+align-items: center;
+margin:auto;
+margin-top:20px;
+
+
+background-image: linear-gradient(120deg ,red,blue,green,pink);
+
+ padding:15px;
+ 
+}
+.join_login >input{
+    border:none;
+    outline:none;
+    height:29px;
+    border-radius:10px;
+    padding:3px;
+    font-size:15px
+}
+.join_login >button{
+    margin:8px;
+    padding:5px;
+    cursor:pointer;
+    background-color:burlywood;
+    border:none;
+    outline:none;
+    border-radius:5px;
+    transition:all 0.5sec;
+
+}
+.join_login >button:hover{
+    background-image: linear-gradient(120deg ,violet,brown,yellow);
+}

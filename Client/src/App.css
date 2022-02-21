@@ -1,0 +1,51 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box
+}
+@media (max-aspect-ratio:7/10){
+  .join_container{
+    width:100%;
+    border:2px solid blue;
+    box-shadow:none !important;
+  }
+  .join_login{
+  margin-top:55px !important
+  }
+  .header >img{
+    width:20vw !important
+  }
+  .header >h3{
+     width:55vw !important;
+     padding:4vw !important
+  }
+  .join_login >input{
+ width:45vw !important;
+ padding:4vw;
+ font-size:4vw !important;
+ margin-top:5vw !important;
+  }
+  .chat_container{
+    height:100% !important;
+    width:100% !important;
+
+  }
+  .chat_header{
+    height:10% !important
+  }
+  .chat_box{
+    height:80% !important
+  }
+  .footer{
+  height:10% !important
+  }
+  .footer >input{
+    font-size:7vw !important
+  }
+  .message_box{
+    width:max-content !important;
+    padding:4vw !important;
+    word-wrap: break-word !important;
+     font-size:2.5vmax !important;
+  }
+}
